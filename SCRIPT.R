@@ -68,5 +68,5 @@ mSet<-PlotHCTree(mSet, "tree_0_", "png", 600, width=NA, "kendall", "ward.D")
 
 # Correlation & Feature Corr.
 mSet<-PlotCorrHeatMap(mSet, "corr_0_", "png", 600, width=NA, "col", "kendall", "bwm", "overview", F, F, F, 100, "0")
-mSet<-FeatureCorrelation(mSet, "kendall", "9-HETE")
+mSet<-FeatureCorrelation(mSet, "kendall", "9-HETE") #we choose to look for all PUFAs that are + or - correlated to 9-HETE  
 mSet<-PlotCorr(mSet, "ptn_1_", "png", 600, width=NA)
